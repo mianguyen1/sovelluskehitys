@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viikko 4 - API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>API-datan noutaminen</h1>
+        <p>Hae uusi neuvo avoimesta rajapinnasta.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Päivän neuvo</h2>
+            <p>Paina nappia saadaksesi satunnaisen neuvon.</p>
+
+            <button id="haeNappi">Hae uusi neuvo</button>
+
+            <p id="tulosTeksti">Vastaus ilmestyy tähän.</p>
+        </section>
+
+        <section>
+            <h2>Useampi neuvo</h2>
+            <button id="haeUseampiNappi">Hae kolme neuvoa</button>
+            <ul id="neuvoLista"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Viikkotehtävä 4 - Johdatus sovelluskehitykseen</p>
+    </footer>
+
+    <script src="api.js"></script>
+</body>
+</html>
